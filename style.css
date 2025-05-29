@@ -1,0 +1,73 @@
+body {
+  margin: 0;
+  font-family: 'Arial', sans-serif;
+  color: #fff;
+}
+
+.letter-page {
+  background: url('images/background.jpg') no-repeat center center fixed;
+  background-size: cover;
+}
+
+.overlay {
+  background: rgba(0, 0, 0, 0.6);
+  padding: 40px;
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.letter {
+  max-width: 700px;
+  background: rgba(255, 255, 255, 0.15);
+  padding: 30px;
+  border-radius: 15px;
+  backdrop-filter: blur(10px);
+  color: #fff;
+  font-size: 1.2rem;
+}
+
+.letter h1 {
+  font-size: 2rem;
+  margin-bottom: 20px;
+}
+
+.letter .signature {
+  margin-top: 30px;
+  font-weight: bold;
+}
+
+.gallery-page {
+  background: #111;
+  color: #fff;
+  padding: 40px;
+  text-align: center;
+}
+
+.gallery {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 15px;
+  margin-top: 20px;
+}
+
+.gallery img {
+  width: 200px;
+  border-radius: 10px;
+  transition: transform 0.3s ease;
+  cursor: pointer;
+}
+
+.gallery img:hover {
+  transform: scale(1.05);
+}
+
+a.gallery-link, a.back-link {
+  display: inline-block;
+  margin-top: 30px;
+  text-decoration: none;
+  color: #ffd700;
+  font-weight: bold;
+}
